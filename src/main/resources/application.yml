@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+#spring
+spring:
+  application:
+    name: springboot-elasticsearch
+
+elasticsearch:
+  address: 192.168.225.145:9200,192.168.225.145:9201,192.168.225.145:9202
+  username: elastic
+  password: 123456
+  schema: http
+  connectTimeout: 10000
+  socketTimeout: 10000
+  connectionRequestTimeout: 10000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+
